@@ -8,26 +8,27 @@
 
     <!-- swiper css link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
     <!-- Header section -->
     <section class="header">
-        <a href="home.php" class="logo">Voyager</a>
+        <a href="index.php" class="logo">Voyager</a>
         <nav class="navbar">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
         </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
     </section>
     
 
 
 <!-- Js files links -->
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
