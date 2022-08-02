@@ -24,6 +24,123 @@
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
+
+    <!-- home section  -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Travel around the world </h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Discover The New Places </h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Make Your Tour Worthwhile</h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+<!-- services section  -->
+<section class="services">
+    <h1 class="heading-title"> Our Services</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/icon-1.png" alt="icon-1">
+            <h3>adventure</h3>
+        </div>
+        
+
+        <div class="box">
+            <img src="images/icon-2.png" alt="icon-2">
+            <h3>Tour guide</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-3.png" alt="icon-3">
+            <h3>Trekking</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-4.png" alt="icon-4">
+            <h3>Camp fire</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-5.png" alt="icon-5">
+            <h3>Off road</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-6.png" alt="icon-6">
+            <h3>Camping</h3>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+            <h3>quick links</h3>
+            <a href="index.php"><i class="fas fa-angle-right"></i> Home</a>
+            <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
+            <a href="package.php"><i class="fas fa-angle-right"></i> Package</a>
+            <a href="book.php"><i class="fas fa-angle-right"></i> Book</a>
+            </div>
+
+            <div class="box">
+            <h3>Extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i>Ask a Question</a>
+            <a href="#"><i class="fas fa-angle-right"></i>About us</a>
+            <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
+            <a href="#"><i class="fas fa-angle-right"></i>Terms of use</a>
+            </div>
+
+            <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +201011****84</a>
+            <a href="#"><i class="fas fa-phone"></i> +201012****65</a>
+            <a href="#"><i class="fas fa-envelope"></i> sakr93117@gmail.com</a>
+            <a href="#"><i class="fas fa-map"></i> Menofia,Egypt</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+            </div>
+        </div>
+        
+        <div class="rights">Created by <span>M.Sakr</span> | All rights reserved</div>
+    </section>
     
 
 
