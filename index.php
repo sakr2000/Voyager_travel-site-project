@@ -24,6 +24,44 @@
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
+
+    <!-- home section  -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Travel around the world </h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Discover The New Places </h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+
+                    <div class="content">
+                        <span>explore, discover, travel </span>
+                        <h3>Make Your Tour Worthwhile</h3>
+                        <a href="package.php" class="btn">Discover more</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
 <!-- services section  -->
 <section class="services">
     <h1 class="heading-title"> Our Services</h1>
