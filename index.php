@@ -62,46 +62,44 @@
         </div>
     </section>
 
-<!-- services section  -->
-<section class="services">
-    <h1 class="heading-title"> Our Services</h1>
-    <div class="box-container">
+    <!-- services section  -->
+    <section class="services">
+        <h1 class="heading-title"> Our Services</h1>
+        <div class="box-container">
 
-        <div class="box">
-            <img src="images/icon-1.png" alt="icon-1">
-            <h3>adventure</h3>
+            <div class="box">
+                <img src="images/icon-1.png" alt="icon-1">
+                <h3>adventure</h3>
+            </div>
+            
+
+            <div class="box">
+                <img src="images/icon-2.png" alt="icon-2">
+                <h3>Tour guide</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-3.png" alt="icon-3">
+                <h3>Trekking</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-4.png" alt="icon-4">
+                <h3>Camp fire</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-5.png" alt="icon-5">
+                <h3>Off road</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-6.png" alt="icon-6">
+                <h3>Camping</h3>
+            </div>
+
         </div>
-        
-
-        <div class="box">
-            <img src="images/icon-2.png" alt="icon-2">
-            <h3>Tour guide</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/icon-3.png" alt="icon-3">
-            <h3>Trekking</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/icon-4.png" alt="icon-4">
-            <h3>Camp fire</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/icon-5.png" alt="icon-5">
-            <h3>Off road</h3>
-        </div>
-
-        <div class="box">
-            <img src="images/icon-6.png" alt="icon-6">
-            <h3>Camping</h3>
-        </div>
-
-    </div>
-</section>
-
-
+    </section>
 
     <!-- footer section -->
     <section class="footer">
@@ -142,10 +140,8 @@
         <div class="rights">Created by <span>M.Sakr</span> | All rights reserved</div>
     </section>
     
-
-
-<!-- Js files links -->
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- Js files links -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
