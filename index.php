@@ -112,6 +112,7 @@
             <a href="about.php" class="btn">Read more</a>
         </div>
     </section>
+
     <!-- Packages section -->
     <section class="home-packages">
         <h2 class="heading-title">Our Packages</h2>
@@ -153,6 +154,16 @@
         </div>
         <div class="load-more"><a href="package.php" class="btn">Load more</a></div>
     </section>
+
+    <!-- Offer section -->
+    <section class="home-offer">
+        <div class="content">
+             <h3>upto 60% off</h3>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero, quas tempora amet ea officiis molestiae hic quos perferendis tempore.</p>
+             <a href="book.php" class="btn">Book now</a>
+        </div>
+    </section>
+    
     <!-- footer section -->
     <section class="footer">
         <div class="box-container">

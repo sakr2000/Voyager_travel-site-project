@@ -224,6 +224,7 @@ section.services .box-container {
   flex: 1 1 51rem;
   padding: 3rem;
   background: var(--light-bg);
+  text-align: center;
 }
 .home-about .content h3 {
   font-size: 3rem;
@@ -281,6 +282,24 @@ section.services .box-container {
   margin-top: 2rem;
 }
 
+/* Offer section */
+.home-offer {
+  text-align: center;
+}
+.home-offer .content {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.home-offer .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.home-offer .content p {
+  font-size: 1.5rem;
+  color: var(--light-black);
+  padding: 1rem 0;
+}
 /* footer section */
 .footer {
   background: url(../images/footer-bg.jpg) no-repeat;
