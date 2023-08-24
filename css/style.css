@@ -207,6 +207,79 @@ section.services .box-container {
   color: var(--white);
   padding-top: 1rem;
 }
+/* About section */
+.home-about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.home-about .image {
+  flex: 1 1 41rem;
+}
+.home-about .image img {
+  width: 100%;
+}
+.home-about .content {
+  flex: 1 1 51rem;
+  padding: 3rem;
+  background: var(--light-bg);
+}
+.home-about .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+}
+.home-about .content p {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--black);
+}
+/* Packages section */
+.home-packages {
+  background: var(--light-bg);
+}
+.home-packages .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 2rem;
+}
+.home-packages .box-container .box {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+}
+.home-packages .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+.home-packages .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s linear;
+}
+.home-packages .box-container .box:hover .image img {
+  scale: 110%;
+}
+.home-packages .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.home-packages .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+.home-packages .box-container .box .content p {
+  font-size: 1.5rem;
+  color: var(--light-black);
+  line-height: 2;
+  padding: 1rem 0;
+}
+.home-packages .load-more {
+  text-align: center;
+  margin-top: 2rem;
+}
 
 /* footer section */
 .footer {
