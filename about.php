@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    <!-- Header section -->
+    <!-- navbar section -->
     <section class="header">
         <a href="index.php" class="logo">Voyager</a>
         <nav class="navbar">
@@ -24,9 +24,115 @@
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
+    <!-- Header section -->
+    <div class="heading" style="background:url(images/header-bg-1.png) no-repeat"><h1>About us</h1></div>
+    
+    <!-- About section -->
+    <section class="about">
+        <div class="image">
+            <img src="images/about-img.jpg" alt="backgroud image">
+        </div>
+        <div class="content">
+            <h3>Why choose us ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus eligendi impedit ratione. Atque, asperiores enim necessitatibus porro accusamus qui aliquam nesciunt voluptate magni dolor quibusdam, quam velit, consectetur nemo.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, libero quasi officiis recusandae ullam temporibus expedita ad soluta id ab!</p>
+            <div class="icons-container">
+                <div class="icon">
+                    <i class="fas fa-map"></i>
+                    <span>Top destionations</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>Affordable prices</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 guide service</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
+    <!-- Reviews section -->
+    <section class="swiper reviews">
+        <h2 class="heading-title">Clients reviews</h2>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos cumque ex ea ipsum neque praesentium soluta, illum quae architecto dolore ullam modi unde quo quidem eligendi laborum odit error?</p>
+                    <h3>Ahmed Ali</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-1.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis a, vitae cupiditate rerum fuga.</p>
+                    <h3>Mera✨</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-2.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quia fuga nam nostrum quidem facilis atque fugiat aspernatur est vero, id accusamus et dolore debitis non ullam veniam necessitatibus. Corporis deserunt a ea in, veniam nesciunt blanditiis minus voluptate officiis!</p>
+                    <h3>samy !</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-3.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos cumque ex ea ipsum neque praesentium soluta, illum quae architecto dolore ullam modi unde quo quidem eligendi laborum odit error?</p>
+                    <h3>Nada 🤍</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-4.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore labore porro aspernatur, cum, laudantium magnam voluptatem quibusdam quidem ullam minus temporibus vero iusto ipsum natus.</p>
+                    <h3>Mohamed Ali</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-5.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias obcaecati maiores praesentium a repellendus illum accusantium sed pariatur aliquam, ab excepturi et nemo dolorum expedita sunt nam ipsum sapiente necessitatibus.</p>
+                    <h3>layla</h3>
+                    <span>Traveler</span>
+                    <img src="images/pic-6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- footer section -->
     <section class="footer">
