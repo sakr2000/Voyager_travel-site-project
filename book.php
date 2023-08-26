@@ -24,6 +24,49 @@
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
+    <div class="heading" style="background:url(images/header-bg-3.png) no-repeat"><h1>Book Now</h1></div>
+    <!-- Booking section -->
+    <section class="booking">
+        <h1 class="heading-title">Book your trip!</h1>
+        <form action="booking_form.php" method="post" class="book-form">
+            <div class="flex">
+                <div class="inputBox">
+                    <span>Name :</span>
+                    <input type="text" placeholder="Enter your name" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="Enter your name" name="email">
+                </div>
+                <div class="inputBox">
+                    <span>Phone :</span>
+                    <input type="number" placeholder="Enter your Phone number" name="phone">
+                </div>
+                <div class="inputBox">
+                    <span>Address :</span>
+                    <input type="text" placeholder="Enter your address" name="address">
+                </div>
+                <div class="inputBox">
+                    <span>Where to ?</span>
+                    <input type="text" placeholder="Place you want to visit" name="location">
+                </div>
+                <div class="inputBox">
+                    <span>How many ?</span>
+                    <input type="number" placeholder="Number of guests" name="guests">
+                </div>
+                <div class="inputBox">
+                    <span>Arrivals :</span>
+                    <input type="date" name="arrivals">
+                </div>
+                <div class="inputBox">
+                    <span>Leaving :</span>
+                    <input type="date" name="leaving">
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="btn" name="send">
+        </form>
+
+    </section>
 
 
 
