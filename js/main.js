@@ -30,3 +30,19 @@ var reviewSwiper = new Swiper(".reviews-slider", {
     },
   },
 });
+
+// load more button in packages page
+let loadMoreBtn = document.querySelector(".packages .load-more .btn");
+let currentItem = 3;
+if (loadMoreBtn) {
+  loadMoreBtn.addEventListener("click", () => {
+    let boxes = [...document.querySelectorAll(".packages .box-container .box")];
+    for (let i = currentItem; i < currentItem + 3; i++) {
+      boxes[i].style.display = "inline-block";
+    }
+    currentItem += 3;
+    if (currentItem >= boxes.length) {
+      loadMoreBtn.style.display = "none";
+    }
+  });
+}
