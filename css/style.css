@@ -586,6 +586,9 @@ section.services .box-container {
   #menu-btn.fa-times {
     transform: rotate(180deg);
   }
+  .heading h1 {
+    font-size: 4rem;
+  }
   .header .navbar {
     position: absolute;
     top: 99%;

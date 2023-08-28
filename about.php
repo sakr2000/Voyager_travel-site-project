@@ -80,7 +80,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis a, vitae cupiditate rerum fuga.</p>
                     <h3>Mera✨</h3>
                     <span>Traveler</span>
-                    <img src="images/pic-2.png" alt="">
+                    <img src="images/pic-2.jpg" alt="">
                 </div>
                 <div class="swiper-slide slide">
                     <div class="stars">
@@ -104,7 +104,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos cumque ex ea ipsum neque praesentium soluta, illum quae architecto dolore ullam modi unde quo quidem eligendi laborum odit error?</p>
                     <h3>Nada 🤍</h3>
                     <span>Traveler</span>
-                    <img src="images/pic-4.png" alt="">
+                    <img src="images/pic-4.jpg" alt="">
                 </div>
                 <div class="swiper-slide slide">
                     <div class="stars">
@@ -113,7 +113,7 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore labore porro aspernatur, cum, laudantium magnam voluptatem quibusdam quidem ullam minus temporibus vero iusto ipsum natus.</p>
-                    <h3>Mohamed Ali</h3>
+                    <h3>Mohamed </h3>
                     <span>Traveler</span>
                     <img src="images/pic-5.png" alt="">
                 </div>
@@ -128,7 +128,7 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias obcaecati maiores praesentium a repellendus illum accusantium sed pariatur aliquam, ab excepturi et nemo dolorum expedita sunt nam ipsum sapiente necessitatibus.</p>
                     <h3>layla</h3>
                     <span>Traveler</span>
-                    <img src="images/pic-6.png" alt="">
+                    <img src="images/pic-6.jpg" alt="">
                 </div>
             </div>
         </div>
