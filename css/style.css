@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --main-color: #8e44ad;
+  --main-color: #15a973;
   --black: #222;
   --white: #fff;
   --light-black: #777;
   --light-white: #fff9;
+  --bg-color: #fff;
   --dark-bg: rgba(0, 0, 0, 0.7);
   --light-bg: rgba(0, 0, 0, 0.1);
   --border: 0.1rem solid var(--black);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
+}
+.dark-mode {
+  --bg-color: #171616;
+  --white: #000;
+  --black: #fff;
+  --light-bg: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -37,7 +44,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 html::-webkit-scrollbar-track {
-  background-color: var(--white);
+  background-color: var(--bg-color);
 }
 
 section {
@@ -51,12 +58,13 @@ section {
   align-items: center;
   justify-content: center;
   padding-top: 10rem;
+  background-color: var(--bg-color);
   padding-bottom: 15rem;
 }
 
 .heading h1 {
   font-size: 10rem;
-  color: var(--white);
+  color: #fff;
   text-shadow: var(--text-shadow);
   text-transform: uppercase;
 }
@@ -81,7 +89,7 @@ section {
   left: 0;
   right: 0;
   z-index: 250;
-  background-color: var(--white);
+  background-color: var(--bg-color);
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
@@ -93,12 +101,30 @@ section {
 .header .logo {
   font-size: 2.5rem;
   color: var(--black);
+  transition: 0.3s;
+}
+.header .logo:hover {
+  color: var(--main-color);
 }
 
+.header .navbar {
+  flex: 1;
+  text-align: right;
+}
 .header .navbar a {
   font-size: 2rem;
   margin-left: 2rem;
   color: var(--black);
+}
+.header i {
+  font-size: 2.5rem;
+  margin-left: 3rem;
+  transition: 0.2s;
+  color: var(--black);
+}
+.header i:hover {
+  color: var(--main-color);
+  cursor: pointer;
 }
 
 .header .navbar a:hover {
@@ -146,7 +172,7 @@ section {
 
 .home .slide .content h3 {
   font-size: 6vw;
-  color: var(--white);
+  color: #fff;
   text-transform: uppercase;
   line-height: 1;
   text-shadow: var(--text-shadow);
@@ -166,7 +192,7 @@ section {
   right: 0;
   height: 7rem;
   width: 7rem;
-  background: var(--white);
+  background: var(--bg-color);
   color: var(--black);
 }
 
@@ -193,12 +219,16 @@ section {
   font-size: 1.7rem;
   padding: 1rem 3rem;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .btn:hover {
   background: var(--main-color);
 }
 
+.services {
+  background-color: var(--bg-color);
+}
 section.services .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -210,19 +240,20 @@ section.services .box-container {
   text-align: center;
   background: var(--main-color);
   cursor: pointer;
+  border-radius: 1.5rem;
 }
 
 .services .box-container .box:hover {
-  background: var(--black);
+  background: var(--light-black);
 }
 
 .services .box-container .box img {
-  height: 7rem;
+  height: 8rem;
 }
 
 .services .box-container .box h3 {
-  font-size: 1.7rem;
-  color: var(--white);
+  font-size: 2rem;
+  color: #fff;
   padding-top: 1rem;
 }
 /* About section */
@@ -231,12 +262,14 @@ section.services .box-container {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  background-color: var(--bg-color);
 }
 .home-about .image {
   flex: 1 1 41rem;
 }
 .home-about .image img {
   width: 100%;
+  border-radius: 1.5rem;
 }
 .home-about .content {
   flex: 1 1 51rem;
@@ -266,7 +299,9 @@ section.services .box-container {
 .home-packages .box-container .box {
   border: var(--border);
   box-shadow: var(--box-shadow);
-  background: var(--white);
+  background: var(--bg-color);
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 .home-packages .box-container .box .image {
   height: 25rem;
@@ -303,6 +338,7 @@ section.services .box-container {
 /* Offer section */
 .home-offer {
   text-align: center;
+  background-color: var(--bg-color);
 }
 .home-offer .content {
   max-width: 60rem;
@@ -324,12 +360,14 @@ section.services .box-container {
   align-items: center;
   flex-wrap: wrap;
   gap: 3rem;
+  background-color: var(--bg-color);
 }
 .about .image {
   flex: 1 1 41rem;
 }
 .about .image img {
   width: 100%;
+  border-radius: 1.5rem;
 }
 .about .content {
   flex: 1 1 41rem;
@@ -357,6 +395,8 @@ section.services .box-container {
   background-color: var(--light-bg);
   padding: 2rem;
   flex: 1 1 16rem;
+  transition: 0.3s;
+  border-radius: 1.5rem;
 }
 .about .content .icons-container .icon i {
   color: var(--main-color);
@@ -367,6 +407,14 @@ section.services .box-container {
   font-size: 1.5rem;
   color: var(--light-black);
   display: block;
+  user-select: none;
+  transition: 0.3s;
+}
+.about .content .icons-container .icon:hover {
+  scale: 1.05;
+}
+.about .content .icons-container .icon:hover span {
+  color: var(--black);
 }
 
 /* About-reviews section */
@@ -429,6 +477,8 @@ section.services .box-container {
   border: var(--border);
   box-shadow: var(--box-shadow);
   background: var(--white);
+  border-radius: 1.5rem;
+  overflow: hidden;
   display: none;
 }
 .packages .box-container .box:nth-child(1),
@@ -472,6 +522,9 @@ section.services .box-container {
 }
 
 /* booking form */
+.booking {
+  background-color: var(--bg-color);
+}
 .booking .book-form {
   padding: 2rem;
   background: var(--light-bg);
@@ -523,7 +576,7 @@ section.services .box-container {
 }
 
 .footer .box-container .box h3 {
-  color: var(--white);
+  color: #fff;
   font-size: 2.5rem;
   padding-bottom: 2rem;
 }
@@ -551,7 +604,7 @@ section.services .box-container {
   margin-top: 3rem;
   border-top: 0.1rem solid var(--light-white);
   font-size: 2rem;
-  color: var(--white);
+  color: #fff;
 }
 
 .footer .rights span {
@@ -594,11 +647,16 @@ section.services .box-container {
     top: 99%;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--bg-color);
     border-top: var(--border);
     padding: 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: 0.2s linear;
+  }
+  .header i {
+    flex: 1;
+    text-align: right;
+    margin-right: 3rem;
   }
   .header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);

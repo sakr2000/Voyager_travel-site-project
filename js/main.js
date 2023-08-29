@@ -46,3 +46,35 @@ if (loadMoreBtn) {
     }
   });
 }
+
+let darkMode = document.getElementById("darkMode");
+let darkModeActive;
+if (localStorage.getItem("darkModeActive") == null) {
+  darkModeActive = false;
+  localStorage.setItem("darkModeActive", JSON.stringify(darkModeActive));
+} else {
+  darkModeActive = JSON.parse(localStorage.getItem("darkModeActive"));
+}
+if (darkModeActive) {
+  document.body.classList.add("dark-mode");
+  darkMode.classList.remove("fa-moon");
+  darkMode.classList.add("fa-sun");
+} else {
+  document.body.classList.remove("dark-mode");
+  darkMode.classList.remove("fa-sun");
+  darkMode.classList.add("fa-moon");
+}
+darkMode.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  if (darkMode.classList.contains("fa-moon")) {
+    darkMode.classList.remove("fa-moon");
+    darkMode.classList.add("fa-sun");
+    darkModeActive = true;
+    localStorage.setItem("darkModeActive", JSON.stringify(darkModeActive));
+  } else {
+    darkMode.classList.remove("fa-sun");
+    darkMode.classList.add("fa-moon");
+    darkModeActive = false;
+    localStorage.setItem("darkModeActive", JSON.stringify(darkModeActive));
+  }
+});

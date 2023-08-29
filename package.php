@@ -22,6 +22,7 @@
             <a href="package.php">Package</a>
             <a href="book.php">Book</a>
         </nav>
+        <i class="fas fa-moon" id="darkMode"></i>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
     <div class="heading" style="background:url(images/header-bg-2.png) no-repeat"><h1>Packages</h1></div>
