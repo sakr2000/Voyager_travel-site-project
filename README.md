@@ -2,7 +2,7 @@
 
 **Voyager** is a travel site that offers trips, tours, and camps and helps you book for incredible adventures. The site design is _interactive, attractive, and responsive_ to offer the best experience for any screen size.
 
-🚀 Try it here :
+🚀 Try it here : https://voyager-opal.vercel.app/
 
 ## Table of Contents
 
@@ -38,10 +38,8 @@
 
 ## Video
 
-<div style="text-align: center">
-  
-[![Youtube image link](images/vid-img.png)](https://www.youtube.com/watch?v=LdzW3azkwEw?si=fqlLoxQFG-xkj_8L)
-
+<div style="display:flex;align-items:center;justify-content:center;">
+  <a href="https://youtu.be/LdzW3azkwEw?si=WaUFc51AR0sJXLAm"><img src="images/vid-img.png" alt="Youtube image link"></a>
 </div>
 
 ## Screenshots
