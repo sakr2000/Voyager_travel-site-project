@@ -2,6 +2,8 @@
 
 **Voyager** is a travel site that offers trips, tours, and camps and helps you book for incredible adventures. The site design is _interactive, attractive, and responsive_ to offer the best experience for any screen size.
 
+🚀 Try it here :
+
 ## Table of Contents
 
 - [Features](#Features)
@@ -37,7 +39,9 @@
 ## Video
 
 <div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LdzW3azkwEw?si=WkcqenBTHdGp2d1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+[![Youtube image link](images/vid-img.png)](https://www.youtube.com/watch?v=LdzW3azkwEw?si=fqlLoxQFG-xkj_8L)
+
 </div>
 
 ## Screenshots
